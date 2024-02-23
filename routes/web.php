@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('comics');
 
-    return view('welcome', $comics);
+    $icons = config('mainicons');
+
+
+    return view('welcome', compact('comics'), compact('icons'));
 });
 
 Route::get('/characters', function () {
