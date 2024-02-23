@@ -42,7 +42,7 @@ header{
                         text-align: end;
                     }
                     &:focus{
-                        box-shadow:5px $blue_brand;
+                        outline: none;
                     }
                 }
             }
@@ -100,5 +100,82 @@ main {
         h6{
             font-size: 0.8rem;
         }
+    }
+}
+
+footer{
+    .upper-footer{
+        background-image: url(../img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 400px;
+
+        ul{
+            max-height: 320px;
+        }
+
+        a{
+            color: #959595;
+            font-size: 0.9rem;
+
+            &:hover{
+                color: white;
+            }
+        }
+
+        p{
+            color: #959595;
+            font-size: 0.8rem;
+            .foot-link{
+                color: $blue_brand;
+                text-decoration: none;
+            }
+        }
+
+        .overflow-logo{
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            height: 400px;
+             
+                img{
+                    height: 150%;
+                    display: block;
+                }
+        }
+    }
+
+    .lower-footer{
+        background-color: $footer_gray_color;
+
+        .foot-button{
+            background-color: $footer_gray_color;
+            border: 2px solid $blue_brand;
+            font-size: 1rem;
+            color: white;
+            padding: 10px;
+
+            &:hover{
+                background-color: $blue_brand;
+            }
+        }
+
+        h3{
+            text-transform: uppercase;
+            color: $blue_brand;
+            font-size: 1.2rem;
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+
+        
+        img{
+            border-radius: 50%;
+            &:hover{
+                background-color: white;
+            }
+        }
+     
     }
 }
