@@ -56,12 +56,12 @@
 <header>
     <div class="blue-line">
         <div class="container d-flex justify-content-end">
-            <h5 class="text-white m-0">DC POWER VISA</h5>
-            <h5 class="text-white m-0">ADDITIONAL DC SITES</h5>
+            <h5 class="text-white me-5 m-0">DC POWER&#8482; VISA&#174;</h5>
+            <h5 class="text-white m-0">ADDITIONAL DC SITES <i class="fa-solid fa-caret-down"></i></h5>
         </div>
     </div>
 
-    <nav class="bg-white py-3 my-nav">
+    <nav class="bg-white my-nav">
 
         <div class="container d-flex justify-content-between align-items-center">
             <div class="col">

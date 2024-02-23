@@ -4,9 +4,15 @@
 @section('page-title', 'Comics')
 
 @section('main-content')
-    <div class="jumbotron"></div>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="abs-badge">
+                <h2 class="text-uppercase mb-0">Current Series</h2>
+            </div>
+        </div>
+    </div>
 
-    <div class="main-comics-section py-5">
+    <div class="main-comics-section">
         <div class="container">
             <div class="row align-items-center">
                 
