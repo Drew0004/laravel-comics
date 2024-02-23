@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('page-title', 'Chi siamo')
+@section('page-title', 'Characters')
 
 @section('main-content')
 <h1>
-    About | Laravel Start 1
+    Characters
 </h1>
 @endsection
