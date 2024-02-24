@@ -19,7 +19,7 @@ Route::get('/', function () {
     $icons = config('mainicons');
 
 
-    return view('welcome', compact('comics'), compact('icons'));
+    return view('welcome', compact('comics','icons'));
 });
 
 Route::get('/characters', function () {
